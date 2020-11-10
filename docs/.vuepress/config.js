@@ -1,4 +1,3 @@
-const { appKey } = require('./private/private')
 const private = require('./private/private')
 // 把最后更改时间更改为 中国地区的样式
 const moment = require('moment');
@@ -38,6 +37,26 @@ module.exports = {
     nav: [
       // 导航栏
       { text: "主页", link: "/", icon: "reco-home" },
+      {
+        text: "工具箱",
+        items: [
+          {
+            text: "在线工具",
+            items: [
+              { text: "在线PS", link: "https://www.uupoop.com/" },
+              { text: "奶牛快传", link: "https://cowtransfer.com/" },
+              { text: "更多~", link: "/views/utools/on-line/" }
+            ]
+          },
+          {
+            text: "实用软件",
+            items: [
+              { text: "IObit Uninstaller", link: "/views/utools/software/IObitUninstaller" },
+              { text: "更多~", link: "/views/utools/software/IObitUninstaller" }
+            ]
+          }
+        ]
+      },
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
       {
         text: "关于",
@@ -48,11 +67,6 @@ module.exports = {
             link: "/views/About/author",
             icon: "reco-account"
           },
-          // {
-          //   text: "简历",
-          //   link: "/views/About/resume",
-          //   icon: "reco-document"
-          // },
           {
             text: "CSDN",
             link: "https://blog.csdn.net/weixin_43742708",
@@ -85,7 +99,7 @@ module.exports = {
       appId: private.appId,
       appKey: private.appKey,
     },
-    lastUpdated: 'Last Updated',
+    lastUpdated: '最后更新于',
   },
   editLinks: true,
   editLinkText: '在 GitHub 上编辑此页 ！',
@@ -103,6 +117,11 @@ module.exports = {
       qq: "2845486124",
       email: "2845486124@gmail.com", //email地址
     },
-
+    // 最后更改时间插件(内置)+moment 格式化为中国地区的样式
+    '@vuepress/last-updated': {
+      transformer: (timestamp, lang) => {
+        return moment(timestamp).format('LLLL')
+      }
+    },
   }
 }
