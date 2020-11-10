@@ -1,5 +1,5 @@
 ---
 home: true
 bgImage: "/images/bg-logo.svg"
-bgImageStyle: { height: "100vh" }
+bgImageStyle: { height: "70vh" }
 ---

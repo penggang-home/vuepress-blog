@@ -24,6 +24,7 @@ module.exports = {
     // 博客配置
     type: "blog",
     fullscreen: true,
+    logo: "/images/favicon.svg",
     blogConfig: {
       category: {
         location: 2,     // 在导航栏菜单中所占的位置，默认2
@@ -52,7 +53,6 @@ module.exports = {
             text: "实用软件",
             items: [
               { text: "IObit Uninstaller", link: "/views/utools/software/IObitUninstaller" },
-              { text: "更多~", link: "/views/utools/software/IObitUninstaller" }
             ]
           }
         ]
