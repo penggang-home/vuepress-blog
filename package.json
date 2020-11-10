@@ -1,0 +1,19 @@
+{
+  "name": "simple-blog",
+  "version": "1.0.0",
+  "description": "一个极简主义Blog网站",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/penggang-home/simple-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
