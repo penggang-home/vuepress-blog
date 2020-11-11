@@ -26,6 +26,7 @@
     "vuepress-theme-reco": "^1.5.7",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-reading-progress": "^1.0.10",
-    "vuepress-plugin-social-share": "^1.0.0"
+    "vuepress-plugin-social-share": "^1.0.0",
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.3"
   }
 }
