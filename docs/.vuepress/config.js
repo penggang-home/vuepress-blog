@@ -8,6 +8,7 @@ module.exports = {
   description: "直面暗影,找寻真理",
   head: [
     ["link", { rel: "icon", href: "/images/favicon.svg" }],
+    ["link", { rel: "stylesheet", href: "https://at.alicdn.com/t/font_2196211_3plq8fmxvvw.css" }],
     ['meta', { name: 'Keywords', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
     // 作者
     ['meta', { name: 'author', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
@@ -58,8 +59,12 @@ module.exports = {
         ]
       },
       {
-        text:"项目一览"
-      }
+        text: "项目",
+        icon: "icon-xiangmu",
+        items: [
+          { text: "电商后台管理系统", link: "http://120.53.120.229:1920/#/login", icon: "https://cn.vuejs.org/images/logo.png" }
+        ]
+      },
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
       {
         text: "关于",
