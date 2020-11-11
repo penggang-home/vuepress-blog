@@ -1,5 +1,5 @@
 ---
-title: "Vue-如何将Vue项目部署到服务器"
+title: "如何将本地Vue项目部署到服务器"
 date: 2020-11-11 12:43:00
 sidebar: "auto"
 categories:

@@ -2,7 +2,6 @@
 title: 关于作者
 date: 2020-11-10 14:20:00
 sidebar: "auto"
-
 ---
 
 ::: tip

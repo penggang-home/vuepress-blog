@@ -5,7 +5,7 @@ moment.locale("zh-cn") //显示中国的时间格式
 
 module.exports = {
   title: "bookbook.cc",
-  description: "分享一些前端路上的学习心得",
+  description: "直面暗影,找寻真理",
   head: [
     ["link", { rel: "icon", href: "/images/favicon.svg" }],
     ['meta', { name: 'Keywords', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
@@ -57,6 +57,9 @@ module.exports = {
           }
         ]
       },
+      {
+        text:"项目一览"
+      }
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
       {
         text: "关于",

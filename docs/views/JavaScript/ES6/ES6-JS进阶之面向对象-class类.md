@@ -7,7 +7,6 @@ categories:
 tags: 
   - JavaScript
   - ES6
-sticky: 1
 ---
 :::tip
   **面向过程POP**就是分析出解决问题所需要的步骤，然后用函数把这些步骤一步一步实现，使用的时候再一个一个的依次调用就可以了。
