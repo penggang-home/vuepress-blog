@@ -12,13 +12,24 @@ module.exports = {
     ['meta', { name: 'Keywords', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
     // 作者
     ['meta', { name: 'author', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
+    // 百度统计
     ['script', {}, `var _hmt = _hmt || [];
     (function() {
       var hm = document.createElement("script");
       hm.src = "https://hm.baidu.com/hm.js?668842dc21c1b8f215b000531ec8f69e";
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
-    })();`]
+    })();`],
+    //Google AdSense 广告
+    ["script",{}, `var adsense_hmt = adsense_hmt || [];
+    (function() {
+      var adsense = document.createElement("script");
+      adsense.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+      adsense.setAttribute('data-ad-client','ca-pub-9019776839535982');
+      adsense.setAttribute('async','true');
+      var adsense_s = document.getElementsByTagName("script")[0]; 
+      adsense_s.parentNode.insertBefore(adsense, adsense_s);
+    })();`],
   ],
   theme: "reco",
   themeConfig: {
