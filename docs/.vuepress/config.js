@@ -12,6 +12,7 @@ module.exports = {
     ['meta', { name: 'Keywords', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
     // 作者
     ['meta', { name: 'author', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
+    ['meta', { name: "baidu_union_verify", content: "b7d6f109b3b3a0f4d3cd2f0f01885e92" }]
     // 百度统计
     ['script', {}, `var _hmt = _hmt || [];
     (function() {
@@ -21,7 +22,7 @@ module.exports = {
       s.parentNode.insertBefore(hm, s);
     })();`],
     //Google AdSense 广告
-    ["script",{}, `var adsense_hmt = adsense_hmt || [];
+    ["script", {}, `var adsense_hmt = adsense_hmt || [];
     (function() {
       var adsense = document.createElement("script");
       adsense.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
