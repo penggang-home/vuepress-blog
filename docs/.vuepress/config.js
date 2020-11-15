@@ -7,12 +7,12 @@ module.exports = {
   title: "bookbook.cc",
   description: "直面暗影,找寻真理",
   head: [
+    ['meta', { name: "baidu_union_verify", content: "a0036ccf0b657813fb236f80f376c429" }],
     ["link", { rel: "icon", href: "/images/favicon.svg" }],
     ["link", { rel: "stylesheet", href: "https://at.alicdn.com/t/font_2196211_3dbvqc4yp59.css" }],
     ['meta', { name: 'Keywords', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
     // 作者
     ['meta', { name: 'author', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
-    ['meta', { name: "baidu_union_verify", content: "b7d6f109b3b3a0f4d3cd2f0f01885e92" }],
     // 百度统计
     ['script', {}, `var _hmt = _hmt || [];
     (function() {

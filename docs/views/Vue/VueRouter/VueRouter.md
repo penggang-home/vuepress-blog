@@ -7,6 +7,7 @@ categories:
 tags:
   - Vue
   - VueRouter
+publish: false
 ---
 
 ::: tip

@@ -7,6 +7,7 @@ categories:
 tags:
   - Vue
   - Vuex
+publish: false
 ---
 
 ::: tip

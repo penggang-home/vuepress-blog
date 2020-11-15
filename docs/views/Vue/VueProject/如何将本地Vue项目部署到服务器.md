@@ -7,7 +7,6 @@ categories:
 tags:
   - Vue
   - VueProject
-sticky: 1
 ---
 
 :::tip
@@ -40,7 +39,6 @@ app.listen(8080, () => {
 ![文件夹](../images/project/file.png)
 
 进入该目录,打开终端 使用 `npm init -y` 初始化项目
-
 
 
 ## 二、打包项目
