@@ -5,7 +5,7 @@ moment.locale("zh-cn") //显示中国的时间格式
 
 module.exports = {
   title: "bookbook.cc",
-  description: "直面暗影,找寻真理",
+  description: "沿着风的轨迹，我们追寻太阳的光芒",
   head: [
     ['meta', { name: "baidu_union_verify", content: "a0036ccf0b657813fb236f80f376c429" }],
     ["link", { rel: "icon", href: "/images/favicon.svg" }],
