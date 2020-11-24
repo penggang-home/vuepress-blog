@@ -5,7 +5,7 @@ moment.locale("zh-cn") //显示中国的时间格式
 
 module.exports = {
   title: "bookbook.cc",
-  description: "直面暗影,找寻真理",
+  description: "沿着风的轨迹，我们追寻太阳的光芒",
   head: [
     ['meta', { name: "baidu_union_verify", content: "a0036ccf0b657813fb236f80f376c429" }],
     ["link", { rel: "icon", href: "/images/favicon.svg" }],
@@ -88,7 +88,7 @@ module.exports = {
         icon: "icon-xiangmu",
         items: [
           { text: "电商后台管理系统", link: "http://120.53.120.229:1920/#/login", icon: "icon-vue" },
-          { text: "电商后台管理系统", link: "http://120.53.120.229:8100", icon: "/images/favicon.svg" },
+          { text: "仿微信聊天", link: "http://120.53.120.229:8100", icon: "/images/favicon.svg" },
         ]
       },
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
