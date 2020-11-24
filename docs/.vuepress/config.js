@@ -88,7 +88,7 @@ module.exports = {
         icon: "icon-xiangmu",
         items: [
           { text: "电商后台管理系统", link: "http://120.53.120.229:1920/#/login", icon: "icon-vue" },
-          { text: "仿微信聊天", link: "http://120.53.120.229:8100", icon: "/images/favicon.svg" },
+          { text: "仿微信聊天", link: "http://120.53.120.229:8100", icon: "reco-wechat" },
         ]
       },
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
