@@ -21,16 +21,6 @@ module.exports = {
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
     })();`],
-    //Google AdSense 广告
-    ["script", {}, `var adsense_hmt = adsense_hmt || [];
-    (function() {
-      var adsense = document.createElement("script");
-      adsense.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-      adsense.setAttribute('data-ad-client','ca-pub-9019776839535982');
-      adsense.setAttribute('async','true');
-      var adsense_s = document.getElementsByTagName("script")[0]; 
-      adsense_s.parentNode.insertBefore(adsense, adsense_s);
-    })();`],
   ],
   theme: "reco",
   themeConfig: {
@@ -97,7 +87,8 @@ module.exports = {
         text: "项目",
         icon: "icon-xiangmu",
         items: [
-          { text: "电商后台管理系统", link: "http://120.53.120.229:1920/#/login", icon: "icon-vue" }
+          { text: "电商后台管理系统", link: "http://120.53.120.229:1920/#/login", icon: "icon-vue" },
+          { text: "电商后台管理系统", link: "http://120.53.120.229:8100", icon: "/images/favicon.svg" },
         ]
       },
       { text: "时间线", link: "/timeline/", icon: "reco-date" },
