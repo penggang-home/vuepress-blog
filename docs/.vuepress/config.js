@@ -87,7 +87,8 @@ module.exports = {
         text: "项目",
         icon: "icon-xiangmu",
         items: [
-          { text: "电商后台管理系统", link: "http://120.53.120.229:1920/#/login", icon: "icon-vue" },
+          { text: '电商后台管理系统 V：1.3.0', link: 'http://120.53.120.229:1921/#/login', icon: "icon-vue" },
+          { text: '电商后台管理系统 V：1.2.0', link: 'http://120.53.120.229:1920/#/login', icon: "icon-vue" },
           { text: "电商平台实时监控系统(Echarts)", link: "http://120.53.120.229:9989/#/home", icon: "icon-vue" },
           { text: "仿微信聊天", link: "http://120.53.120.229:8100", icon: "reco-wechat" },
         ]
