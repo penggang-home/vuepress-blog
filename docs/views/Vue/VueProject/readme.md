@@ -24,7 +24,7 @@ tags:
 ```js
 
 //创建web服务器
-const app = express()
+const app = require('express')();
 
 //托管静态资源
 app.use(express.static('./dist'))

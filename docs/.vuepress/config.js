@@ -9,7 +9,6 @@ module.exports = {
   head: [
     ['meta', { name: "baidu_union_verify", content: "a0036ccf0b657813fb236f80f376c429" }],
     ["link", { rel: "icon", href: "/images/favicon.svg" }],
-    ["link", { rel: "stylesheet", href: "https://at.alicdn.com/t/font_2196211_3dbvqc4yp59.css" }],
     ['meta', { name: 'Keywords', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
     // 作者
     ['meta', { name: 'author', content: '彭先生,彭先生的主页,bookbook,BookBook,bookbook.cc,BookBook.cc' }],
@@ -51,6 +50,9 @@ module.exports = {
     valineConfig: {
       appId: private.appId,
       appKey: private.appKey,
+      recordIP: true,
+      placeholder: '填写邮箱地址可以及时收到回复噢...',
+      visitor: true,
     },
     lastUpdated: '最后更新于', friendLink: [
       {
@@ -76,7 +78,6 @@ module.exports = {
       { text: "主页", link: "/", icon: "reco-home" },
       {
         text: "工具箱",
-        icon: "icon-gongju1",
         items: [
           { text: "在线PS", link: "https://www.uupoop.com/" },
           { text: "奶牛快传", link: "https://cowtransfer.com/" },
@@ -85,7 +86,6 @@ module.exports = {
       },
       {
         text: "项目",
-        icon: "icon-xiangmu",
         items: [
           { text: '电商后台管理系统 V：1.3.0', link: 'http://120.53.120.229:1921/#/login', icon: "icon-vue" },
           { text: '电商后台管理系统 V：1.2.0', link: 'http://120.53.120.229:1920/#/login', icon: "icon-vue" },
