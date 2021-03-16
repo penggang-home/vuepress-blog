@@ -1,0 +1,30 @@
+{
+  "id": "2196211",
+  "name": "simple-blog",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6229057",
+      "name": "工具",
+      "font_class": "tools",
+      "unicode": "e694",
+      "unicode_decimal": 59028
+    },
+    {
+      "icon_id": "13744032",
+      "name": "vue",
+      "font_class": "vue",
+      "unicode": "e69a",
+      "unicode_decimal": 59034
+    },
+    {
+      "icon_id": "12387169",
+      "name": "项目",
+      "font_class": "project",
+      "unicode": "e911",
+      "unicode_decimal": 59665
+    }
+  ]
+}

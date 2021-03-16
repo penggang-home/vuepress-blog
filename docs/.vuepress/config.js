@@ -4,8 +4,8 @@ const moment = require('moment');
 moment.locale("zh-cn") //显示中国的时间格式
 
 module.exports = {
-  title: "bookbook.cc",
-  description: "沿着风的轨迹，我们追寻太阳的光芒",
+  title: "PengSir",
+  description: "这个杀手不太冷",
   head: [
     ['meta', { name: "baidu_union_verify", content: "a0036ccf0b657813fb236f80f376c429" }],
     ["link", { rel: "icon", href: "/images/favicon.svg" }],
@@ -20,6 +20,8 @@ module.exports = {
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
     })();`],
+    ['script', { src: "/utils/js/jq3.5.1.js" }, ``],
+    ['script', { src: "/utils/js/click.js" }, ``],
   ],
   theme: "reco",
   themeConfig: {
@@ -39,7 +41,7 @@ module.exports = {
     },
     subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     sidebar: "auto",//所有页面自动生成侧边栏
-    author: "BookBook.cc",
+    author: "PrngSir",
     authorAvatar: "/images/avatar.svg",
     mode: "light", //默认显示模式  modePicker: false 关闭该按钮
     codeTheme: "tomorrow", // default 'tomorrow' okaidia
@@ -78,6 +80,7 @@ module.exports = {
       { text: "主页", link: "/", icon: "reco-home" },
       {
         text: "工具箱",
+        icon: "iconfont icon-tools",
         items: [
           { text: "在线PS", link: "https://www.uupoop.com/" },
           { text: "奶牛快传", link: "https://cowtransfer.com/" },
@@ -86,10 +89,11 @@ module.exports = {
       },
       {
         text: "项目",
+        icon: 'iconfont icon-tools',
         items: [
-          { text: '电商后台管理系统 V：1.3.0', link: 'http://120.53.120.229:1921/#/login', icon: "icon-vue" },
-          { text: '电商后台管理系统 V：1.2.0', link: 'http://120.53.120.229:1920/#/login', icon: "icon-vue" },
-          { text: "电商平台实时监控系统(Echarts)", link: "http://120.53.120.229:9989/#/home", icon: "icon-vue" },
+          { text: '电商后台管理系统 V：1.3.0', link: 'http://120.53.120.229:1921/#/login', icon: "iconfont icon-vue" },
+          { text: '电商后台管理系统 V：1.2.0', link: 'http://120.53.120.229:1920/#/login', icon: "iconfont icon-vue" },
+          { text: "电商平台实时监控系统(Echarts)", link: "http://120.53.120.229:9989/#/home", icon: "iconfont icon-vue" },
           { text: "仿微信聊天", link: "http://120.53.120.229:8100", icon: "reco-wechat" },
         ]
       },

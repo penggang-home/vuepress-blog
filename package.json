@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jquery": "^3.6.0"
   },
   "devDependencies": {
     "moment": "^2.29.1",
