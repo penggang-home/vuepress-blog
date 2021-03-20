@@ -64,15 +64,11 @@ module.exports = {
         link: 'https://www.recoluan.com'
       },
       {
-        title: '君哥的学习笔记',
-        desc: '君哥聊编程、知码知天下.',
-        link: 'https://book.hliedu.com/guide/notes/vuepress.html'
+        title: '唐子涵的博客',
+        desc: '至于未来会怎么样 反正路还长 天总会亮',
+        link: 'https://www.zihanzy.com/'
       },
-      {
-        title: "CHANX's Blog",
-        desc: '陈小白の博客.',
-        link: 'https://www.chanx.tech/'
-      },
+
       // ...
     ],
     nav: [
