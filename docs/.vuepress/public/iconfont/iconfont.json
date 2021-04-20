@@ -6,6 +6,27 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "3060566",
+      "name": "网易云音乐",
+      "font_class": "wangyiyunyinle",
+      "unicode": "e7ee",
+      "unicode_decimal": 59374
+    },
+    {
+      "icon_id": "8709281",
+      "name": "网易云",
+      "font_class": "wangyiyun",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15788441",
+      "name": "网易云",
+      "font_class": "wangyiyun1",
+      "unicode": "e7ae",
+      "unicode_decimal": 59310
+    },
+    {
       "icon_id": "6229057",
       "name": "工具",
       "font_class": "tools",

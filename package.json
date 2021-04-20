@@ -1,5 +1,5 @@
 {
-  "name": "simple-blog",
+  "name": "vuepress-blog",
   "version": "1.0.0",
   "description": "一个极简主义Blog网站",
   "main": "index.js",
@@ -13,13 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitee.com/penggang-home/simple-blog.git"
+    "url": "https://gitee.com/penggang-home/vuepress-blog"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery": "^3.6.0"
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "jquery": "^3.6.0",
+    "vuepress-plugin-cursor-effects": "^1.0.2"
   },
   "devDependencies": {
     "moment": "^2.29.1",
@@ -27,7 +30,6 @@
     "vuepress": "^1.7.1",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-reading-progress": "^1.0.10",
-    "vuepress-plugin-social-share": "^1.0.0",
     "vuepress-theme-reco": "^1.6.6"
   }
 }

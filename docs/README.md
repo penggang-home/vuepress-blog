@@ -9,3 +9,5 @@ heroTextStyle: {
 bgImage: "/images/bg-logo.svg"
 isShowTitleInHome: false
 ---
+
+<KanBanNiang>

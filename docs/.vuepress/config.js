@@ -20,8 +20,8 @@ module.exports = {
       var s = document.getElementsByTagName("script")[0]; 
       s.parentNode.insertBefore(hm, s);
     })();`],
-    ['script', { src: "/utils/js/jq3.5.1.js" }, ``],
-    ['script', { src: "/utils/js/click.js" }, ``],
+    // ['script', { src: "/utils/js/jq3.5.1.js" }, ``],
+    // ['script', { src: "/utils/js/click.js" }, ``],
   ],
   theme: "reco",
   themeConfig: {
@@ -68,6 +68,12 @@ module.exports = {
         desc: '至于未来会怎么样 反正路还长 天总会亮',
         link: 'https://www.zihanzy.com/'
       },
+      {
+        title: '李Sir的博客',
+        desc: '活在当下',
+        link: 'https://heroli.netlify.app/'
+      },
+      
 
       // ...
     ],
@@ -87,6 +93,7 @@ module.exports = {
         text: "项目",
         icon: 'iconfont icon-tools',
         items: [
+          { text: 'CloudMusic\t|\t米奇妙妙屋', link: 'https://bookbook.cc/music/', icon: "iconfont icon-wangyiyunyinle" },
           { text: '电商后台管理系统 V：1.3.0', link: 'http://120.53.120.229:1921/#/login', icon: "iconfont icon-vue" },
           { text: '电商后台管理系统 V：1.2.0', link: 'http://120.53.120.229:1920/#/login', icon: "iconfont icon-vue" },
           { text: "电商平台实时监控系统(Echarts)", link: "http://120.53.120.229:9989/#/home", icon: "iconfont icon-vue" },
@@ -127,6 +134,8 @@ module.exports = {
       }
     ],
   },
+  // 项目开始时间
+  // startYear: '2017',
   editLinks: true,
   editLinkText: '在 GitHub 上编辑此页 ！',
   markdown: {
@@ -137,12 +146,14 @@ module.exports = {
     "vuepress-plugin-code-copy": true,
     // 阅读进度条: "vuepress-plugin-reading-progress": "^1.0.10",
     "reading-progress": true,
+
     // 分享插件: "vuepress-plugin-social-share": "^1.0.0"
-    "social-share": {
-      networks: ["qq", "weibo", "email"], //分享类型
-      qq: "2845486124",
-      email: "2845486124@gmail.com", //email地址
-    },
+    // "social-share": {
+    //   networks: ["qq", "weibo", "email"], //分享类型
+    //   qq: "2845486124",
+    //   email: "2845486124@gmail.com", //email地址
+    // },
+
     // 最后更改时间插件(内置)+moment 格式化为中国地区的样式
     '@vuepress/last-updated': {
       transformer: (timestamp, lang) => {
@@ -290,5 +301,45 @@ module.exports = {
         },
       ],
     },
+    // 看板娘插件 https://github.com/vuepress-reco/vuepress-plugin-kan-ban-niang
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang":
+    {
+      theme: ['z16', 'blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku'],
+      clean: false,
+      messages: {
+        welcome: '我是bookbook,欢迎你的关注 ',
+        home: '心里的花，我想要带你回家。',
+        theme: '好吧，希望你能喜欢我的其他小伙伴。',
+        close: '再见哦'
+      },
+      width: 150,
+      height: 219,
+    },
+    // 点击爆炸的彩带效果
+    "cursor-effects": {
+      size: 3,                    // size of the particle, default: 2
+      shape: ['circle'],  // shape of the particle, default: 'star'
+      zIndex: 999999999           // z-index property of the canvas, default: 999999999
+    },
+    //vuepress公告插件 先安装在配置 npm install @vuepress-yard/vuepress-plugin-window --save
+    "@vuepress-yard/vuepress-plugin-window": {
+      title: "疯狂的地球人@公告",
+      windowStyle:{
+
+      },
+      contentInfo: {
+        title: "毕设、项目、相关咨询加微信哦~🎉🎉",
+        needImg: true,
+        imgUrl: "images/bookbook.png",
+        content: "",
+        contentStyle: ""
+      },
+      bottomInfo: {
+        // btnText: '关于',
+        // linkTo: 'https://www.bookbook.cc/views/About/author.html'
+      },
+      closeOnce: false,
+      // hideRouteList
+    }
   }
 }
