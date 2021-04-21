@@ -93,7 +93,7 @@ module.exports = {
         text: "项目",
         icon: 'iconfont icon-tools',
         items: [
-          { text: 'CloudMusic\t|\t米奇妙妙屋', link: 'https://bookbook.cc/music/', icon: "iconfont icon-wangyiyunyinle" },
+          { text: 'CloudMusic\t|\t米奇妙妙屋', link: 'https://penggang-home.gitee.io/cloud-music/#/discovery', icon: "iconfont icon-wangyiyunyinle" },
           { text: '电商后台管理系统 V：1.3.0', link: 'http://120.53.120.229:1921/#/login', icon: "iconfont icon-vue" },
           { text: '电商后台管理系统 V：1.2.0', link: 'http://120.53.120.229:1920/#/login', icon: "iconfont icon-vue" },
           { text: "电商平台实时监控系统(Echarts)", link: "http://120.53.120.229:9989/#/home", icon: "iconfont icon-vue" },
@@ -115,6 +115,7 @@ module.exports = {
             link: "/views/About/resume",
             icon: "reco-document"
           },
+          
           {
             text: "CSDN",
             link: "https://blog.csdn.net/weixin_43742708",
