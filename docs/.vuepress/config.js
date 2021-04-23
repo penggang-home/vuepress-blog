@@ -323,24 +323,21 @@ module.exports = {
       zIndex: 999999999           // z-index property of the canvas, default: 999999999
     },
     //vuepress公告插件 先安装在配置 npm install @vuepress-yard/vuepress-plugin-window --save
-    "@vuepress-yard/vuepress-plugin-window": {
-      title: "疯狂的地球人@公告",
-      windowStyle:{
-
-      },
-      contentInfo: {
-        title: "毕设、项目、相关咨询加微信哦~🎉🎉",
-        needImg: true,
-        imgUrl: "images/bookbook.png",
-        content: "",
-        contentStyle: ""
-      },
-      bottomInfo: {
+   // "@vuepress-yard/vuepress-plugin-window": {
+    //  title: "疯狂的地球人@公告",
+   //   contentInfo: {
+    //    title: "毕设、项目、相关咨询加微信哦~🎉🎉",
+     //   needImg: true,
+    //    imgUrl: "images/bookbook.png",
+     //   content: "",
+      //  contentStyle: ""
+    //  },
+   //   bottomInfo: {
         // btnText: '关于',
         // linkTo: 'https://www.bookbook.cc/views/About/author.html'
-      },
-      closeOnce: false,
-      // hideRouteList
-    }
+    //  },
+    // closeOnce: false,
+    // hideRouteList
+    // }
   }
 }
